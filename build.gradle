@@ -22,6 +22,7 @@ dependencies {
     compile  "org.embulk:embulk-core:0.9.5"
     provided "org.embulk:embulk-core:0.9.5"
     // compile "YOUR_JAR_DEPENDENCY_GROUP:YOUR_JAR_DEPENDENCY_MODULE:YOUR_JAR_DEPENDENCY_VERSION"
+    compile 'com.maxmind.geoip2:geoip2:2.11.0'
     testCompile "junit:junit:4.+"
 }
 
